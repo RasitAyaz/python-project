@@ -81,4 +81,18 @@ nb-configuration.xml
 ##############################
 ## OS X
 ##############################
+<<<<<<< HEAD
 .DS_Store
+=======
+.DS_Store
+
+
+*.txt
+output.json
+*.log
+outputs
+metrics
+*.XLS
+*.XLSX
+*.csv
+>>>>>>> 230ebd9 (initial commit for python project)
