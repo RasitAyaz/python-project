@@ -102,7 +102,11 @@ metrics
 =======
 *.xlsx
 *.CSV
+<<<<<<< HEAD
 *.csv
 *.PDF
 *.pdf
 >>>>>>> 17139f6 (Organize main file and add student results functionality)
+=======
+*.csv
+>>>>>>> c22527a (Last Commit)
