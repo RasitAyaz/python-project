@@ -93,6 +93,15 @@ output.json
 outputs
 metrics
 *.XLS
+*.xls
 *.XLSX
+<<<<<<< HEAD
 *.csv
 >>>>>>> 230ebd9 (initial commit for python project)
+=======
+*.xlsx
+*.CSV
+*.csv
+*.PDF
+*.pdf
+>>>>>>> 17139f6 (Organize main file and add student results functionality)
