@@ -103,6 +103,7 @@ metrics
 *.xlsx
 *.CSV
 <<<<<<< HEAD
+<<<<<<< HEAD
 *.csv
 *.PDF
 *.pdf
@@ -110,3 +111,7 @@ metrics
 =======
 *.csv
 >>>>>>> c22527a (Last Commit)
+=======
+*.csv
+*.pdf
+>>>>>>> 75ee472 (Change .gitignore file)
