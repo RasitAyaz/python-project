@@ -88,7 +88,6 @@ nb-configuration.xml
 
 
 *.txt
-*.json
 *.JSON
 *.log
 outputs
