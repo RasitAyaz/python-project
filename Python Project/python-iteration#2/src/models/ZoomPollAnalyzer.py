@@ -32,6 +32,7 @@ class ZoomPollAnalyzer:
         self.meetings = []
         self.total_days = 0
         self.answer_key_list = []
+        self.processed_dates = set()
 
     # readStudents function takes name of a file which contains all students and their informations
     # then save them into students list
@@ -143,6 +144,12 @@ class ZoomPollAnalyzer:
         meeting_topic = tokens[0]
         meeting_id = tokens[1]
         date = tokens[2]
+
+        if date in self.processed_dates:
+            logging.error("The session with date " + date + " has already processed.")
+            return
+
+        self.processed_dates.add(date)
 
         for m in self.meetings:
             if m.meeting_id == meeting_id:
