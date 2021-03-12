@@ -4,25 +4,8 @@ from .Configuration import *
 from .Meeting import *
 from .OutputManager import *
 from .Poll import *
-<<<<<<< HEAD
-from .Student import *
-<<<<<<< HEAD
-from .Question import *
-<<<<<<< HEAD
-=======
-=======
->>>>>>> c72b144 (Final commit?)
-from .Meeting import *
-<<<<<<< HEAD
->>>>>>> 5f20541 (Adapt reading poll report to the new syntax)
-from .Answer import *
-=======
-from .Configuration import *
->>>>>>> b35e30d (Integrate config.json file to the system)
-=======
 from .Question import *
 from .Student import *
->>>>>>> 4854e39 (Implement OutputManager class)
 
 
 class ZoomPollAnalyzer:
